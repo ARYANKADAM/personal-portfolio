@@ -37,7 +37,7 @@ function Main() {
         <Github className='git-icon'/>
       </motion.div>
         <motion.img  whileHover={{ scale: 1.1 }}  
-        transition={{ type: 'spring', stiffness: 300 }} src='./farmer.png'></motion.img>
+        transition={{ type: 'spring', stiffness: 300 }} src='/farmer.png'></motion.img>
       </div>
     </div>
     <div id='work-div'>
@@ -47,7 +47,7 @@ function Main() {
         <Github className='github-icon'/>
       </motion.div>
       <motion.img  whileHover={{ scale: 1.1 }}  
-        transition={{ type: 'spring', stiffness: 300 }} src='./x and 0.png' id='x0game'></motion.img>
+        transition={{ type: 'spring', stiffness: 300 }} src='/x and 0.png' id='x0game'></motion.img>
       </div>
       <div id='work-heading'>
       <h1 id='landing-pg'>X & 0 Game</h1>
@@ -65,7 +65,7 @@ function Main() {
         <Github className='git-icon'/>
       </motion.div>
         <motion.img  whileHover={{ scale: 1.2 }}  
-        transition={{ type: 'spring', stiffness: 300 }}  src='./portfolio.png' className='portfolio'></motion.img>
+        transition={{ type: 'spring', stiffness: 300 }}  src='/portfolio.png' className='portfolio'></motion.img>
       </div>
     </div>
     <div className='about-pg'>
