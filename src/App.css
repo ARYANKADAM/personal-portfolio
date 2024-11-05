@@ -1,0 +1,790 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+h1{
+    color: blue;
+}
+.container{
+    background:radial-gradient(at top,rgb(226, 224, 224) 67%,rgb(91, 90, 90));
+    width: 97vw;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 17px;
+    margin-top: 7px;
+    box-shadow: 10 4px 10px rgba(72, 71, 71, 0.2);
+}
+.nav-components{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    padding: 2px;
+}
+#root{
+    padding-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    /* position: fixed; */
+    padding-bottom: 6px;
+    display: flex;
+    /* line-height: 5vh; */
+    justify-content: center;
+
+}
+.main-navbar{
+    position: fixed;
+    background-color: rgb(116, 112, 112);
+    height: 5vh;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    justify-content: start;
+    margin-top: 20px;
+}
+.main-navbar:hover{
+
+}
+a:hover{
+    color: rgb(116, 112, 112);
+    background-color: white;
+}
+#button{
+    /* background-color: red; */
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    height: 4.5vh;
+    align-items:center;
+    border-radius: 5px;
+}
+a{  text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    height: 4.5vh;
+    align-items:center;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    
+}
+
+.content {
+    background:radial-gradient(at top,rgb(226, 224, 224) 68%,rgb(91, 90, 90));
+    width: 95vw;
+    height: 82vh;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 65px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease,color 0.5 ease;
+    
+}
+.content:hover{
+    background:radial-gradient(at top,rgb(219, 215, 215) ,rgb(41, 40, 40) 73% );
+    .lname{
+        text-shadow: 1px 1px 8px white;
+        color: white;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    .fname{
+        text-shadow: 1px 1px 8px rgb(70, 67, 67);
+        color: rgb(70, 67, 67);
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    .container{
+        background-color: black;
+    }
+    .aboutme{
+        color: rgb(220, 207, 207);
+    }
+    .cont-but, .res-but {
+    }
+    b{
+        color:black;
+        text-decoration: underline;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+}
+.fname{
+    color: rgb(50, 48, 48);
+    /* background-color: aqua; */
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    /* font-family: "Alegreya SC", serif;
+    font-weight: 500;
+    font-style: normal; */
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: 2px 2px 10px black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.fname:hover{
+    color: rgb(55, 53, 53);
+}
+.l-name{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;height: fit-content;
+}
+.lname{
+    color: rgb(50, 48, 48);
+    font-size: 140px;
+    /* font-family: "Alegreya SC", serif;
+    font-weight: 500;
+    font-style: normal; */
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: 2px 2px 10px black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.lname:hover{
+    /* color: rgb(163, 150, 150); */
+}
+.name{
+    height: 65vh;
+    gap: 3px;
+}
+.buttons{
+    /* background-color: red; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+    height: 14vh;
+}
+.cont-but, .res-but {
+    border-radius: 4px;
+    border-style: none;
+    background-color: rgb(116, 112, 112);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 2px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: background-color 0.4s ease, color 0.4s ease, border-radius 0.4s ease; 
+}
+.cont-but{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 4px;
+    border-style: none;
+    background-color: rgb(116, 112, 112);
+    color: white;
+    font-weight:600;
+    font-size: 14px;
+    padding: 2px;
+    
+}
+.res-but{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 4px;
+    border-style: none;
+    background-color: rgb(116, 112, 112);
+    color: white;
+    font-weight:600;
+    font-size: 14px;
+    padding: 2px;
+}
+.cont-but:hover, .res-but:hover {
+    background-color: white;
+    color: rgb(116, 112, 112);
+    border-radius: 20px;
+}
+.about{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    padding-left: 15px;
+}
+.aboutme{
+    color: rgb(85, 79, 79);
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+b{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.work-div{
+    height: 94vh;
+    width: 90vw;
+    margin-top: 19vh;
+    margin-bottom: 20px;
+    margin-left: 17px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(59, 57, 57);
+    background-color: rgb(41, 40, 40);
+}
+.work-div:hover{
+    background: linear-gradient(black 65%,rgb(45, 43, 45) );
+}
+.work{
+    background-color: rgb(69, 64, 64);
+    border-radius: 17px;
+    height: 80vh;
+    width: 64vw;
+    margin-right: 20px;
+    margin-top: 5vh;
+}
+.work:hover{
+    transform:((1.5));
+}
+#work-div{
+    height: 94vh;
+    width: 90vw;
+    margin-top: 8vh;
+    margin-bottom: 20px;
+    margin-left: 17px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    background-color: rgb(41, 40, 40);
+}
+#work-div:hover{
+    background: linear-gradient(black 65%,rgb(45, 43, 45) );
+}
+#work{
+    background-color: rgb(69, 64, 64);
+    border-radius: 17px;
+    height: 80vh;
+    width: 64vw;
+    margin-left: 20px;
+    margin-top: 5vh;
+}
+#work:hover{
+    transform:((1.5));
+}
+.work-heading{
+    /* background-color: red; */
+    height: 80vh;
+    width: 30vw;
+    margin-right: 12px;
+    border-radius: 20px;
+    margin-top: 5vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landpg-heading{
+    /* background-color: red; */
+    width: 22vw;
+    height: 40vh;
+    margin-left:23px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 70px;
+    color: rgb(255, 251, 251);
+    text-align: justify;
+    margin-right: 6px;
+}
+.landing-pg{
+    color: rgb(255, 251, 251);
+    font-size: 35px;
+    padding: 12px 20px;
+    text-shadow: 2px 2px 4px rgb(209, 197, 197);
+    letter-spacing: 2px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#work-heading{
+    height: 80vh;
+    width: 30vw;
+    margin-right: 12px;
+    border-radius: 20px;
+    margin-top: 5vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#landpg-heading{
+    /* background-color: red; */
+    width: 22vw;
+    height: 40vh;
+    margin-left:25px;
+    padding: 10px;
+    font-size: 23px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 70px;
+    color: rgb(255, 251, 251);
+    text-align: justify;
+    margin-right: 6px;
+}
+#landing-pg{
+    color: rgb(255, 251, 251);
+    font-size: 35px;
+    padding: 12px 20px;
+    text-shadow: 2px 2px 4px rgb(209, 197, 197);
+    letter-spacing: 2px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+img{
+    width: 45vw;
+    height: 55vh;
+   margin-top: 16vh;
+   margin-left: 17vw;
+   background-color: red;
+}
+#x0game{
+    background-color: red;
+    width: 50vw;
+    height: 60vh;
+    margin-top: 11vh;
+    margin-right: 20px;display: flex;
+    justify-content: start;
+    margin-left: 0px;
+    margin-bottom: 20vh;
+}
+.portfolio{
+    width: 50vw;
+    height: 55vh;
+   margin-top: 16vh;
+   margin-left: 12vw;
+   border-radius: 10px;
+}
+.contact-pg{
+    height: 94vh;
+    width: 90vw;
+    margin-left: 17px;
+    margin-top: 7vh;
+    margin-bottom: 20px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background:radial-gradient(at top,rgb(226, 224, 224) 60%,rgb(91, 90, 90));
+
+}
+.contactpg{
+    border-radius: 17px;
+    height: 55vh;
+    width: 80vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 85px;
+}
+.reachout,.anytime{
+    /* background-color: red; */
+    width: 80vw;
+    font-size: 90px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(50, 48, 48);
+    text-shadow: 1px 1px 8px black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.anytime{
+    font-size: 150px;
+}
+.contact-pg:hover{
+    background: radial-gradient( at top,black,black);
+    .reachout{
+        color: white;
+        text-shadow: 1px 1px 5px white;
+    }
+    .anytime{
+        color: white;
+        text-shadow: 2px 2px 5px white;
+    }
+    .icons{
+        background-color: rgb(154, 147, 147);
+    }
+    .icon{
+        color: rgb(255, 255, 255);
+    }
+    .arru{
+        color: white;
+        letter-spacing: 1px;
+        
+    }
+}
+.icons{
+    background-color: rgb(104, 100, 100);
+    height: 7vh;
+    width: 25vw;
+    border-radius: 10px;
+    margin-left: 33vw;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+.icon{
+    color: white;
+    /* background-color: red; */
+    padding: 5px;
+    height: 5vh;
+    width: 3vw;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.icon:hover{
+    background: linear-gradient(black 55%,rgb(71, 68, 71) );
+}
+.gitbut{
+    /* background-color: red; */
+    height: 14vh;
+    display: flex;
+    align-items: center;
+}
+.github-but{
+    background-color: black;
+    color: black;
+    height: 8vh;
+    width: 5vw;
+    margin-left: 2vw;
+    border-radius: 50%;
+}
+.github-icon{
+    color: white;
+    height: 7vh;
+    width: 3vw;
+    margin-top: 2px;
+}
+hr{
+    margin-top: 8vh;
+}
+.about-pg{
+    height: 94vh;
+    width: 90vw;
+    margin-left: 17px;
+    margin-top: 7vh;
+    margin-bottom: 20px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: ro;
+    /* align-items: center; */
+    justify-content: start;
+    background-color: black;
+}
+.aboutpg-name{
+    /* background-color: blue; */
+    width: 60vw;
+    margin-left: 4vw;
+    margin-top: 5vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.about-pg-name{
+    /* background-color: red; */
+    color: rgb(238, 229, 229);
+    font-size: 90px;
+    width: 50vw;
+    /* padding: 10px; */
+    text-shadow: 1px 1px 5px white;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin-right: 10vw;
+    animation: popUp 0.6s forwards;
+}
+.about-para{
+    color: white;
+    display: flex;
+    /* background-color: aqua; */
+    width: 45vw;
+    height: 50vh;
+    padding: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-right: 5vw;
+    text-shadow: 1px 1px 5px white;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 15vw;
+    margin-bottom: 2px;
+}
+.about-heading{
+    /* background-color: yellow; */
+    width: 55vw;
+}
+.skills{
+    /* background-color: red; */
+    width: 50vw;
+    margin-left: 5vw;
+    margin-right: 4vw;
+    height: 35vh;
+    margin-top: 15vh;
+    border-radius: 20px;
+}
+.frontend-hd, .backend-hd,.uiux-hd,.database-hd{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(123, 117, 117);
+    font-size: 15px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.frontend-para,.backend-para,.uiux-para,.database-para{
+    width: 13VW;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    letter-spacing: 2PX;
+}
+.arru{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: brown; */
+    height: 7vh;
+    padding-right: 10px;
+    /* margin-top: 2vh; */
+}
+.git-icons{
+    /* box-shadow: 1px 1px 3px white; */
+    background-color: rgb(125, 112, 112);
+    width: 4vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    border-radius: 7px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.git-icons:hover{
+    background-color: rgb(27, 25, 25);
+}
+.git-icon{
+    color: white;
+}
+.github-icons{
+    background-color: rgb(125, 112, 112);
+    width: 4vw;
+    height: 6vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 54vw;
+    margin-top: 3vh;
+    border-radius: 7px;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+.github-icons:hover{
+    background-color: rgb(27, 25, 25);
+}
+.github-icon{
+    color: white;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    .main-navbar {
+        width: 94vw;
+        height: 5vh;
+        justify-content: center;
+    }
+    .content {
+        flex-direction: column;
+        height: 100vh;
+        padding: 10px;
+        background:radial-gradient(at top,rgb(224, 220, 220) 60%,rgb(35, 34, 34)  );
+    }
+    .lname {
+        font-size: 80px;
+    }
+    .fname {
+        font-size: 60px;
+    }
+    .buttons {
+        flex-direction: row;
+        gap: 7px;
+    }
+    .cont-but, .res-but {
+        width: 40vw;
+    }
+    a{
+        font-size: 13px;
+    }
+    .aboutme{
+        font-size: 15px;
+    }
+    .about{
+        /* background-color: red; */
+        height: 20vh;
+        text-align: center;
+    }
+    .work-div{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+        background:radial-gradient(at top,rgb(224, 220, 220) ,rgb(35, 34, 34) 75% );
+    
+        
+    }
+    h3{
+        font-size: 25px;
+        color: white;
+        text-align: justify;
+    }
+    .work-heading{
+        /* background-color: red; */
+        width: 90vw;
+        margin-left: 10px;
+        height: 60vh;
+        margin-top: 20px;
+    }
+    .landing-pg{
+        font-size: 40px;
+        width: 100vw;
+        padding-left: 130px;
+        color: rgb(56, 53, 53);
+    }
+    .work{
+        width: 90vw;
+        margin-left: 16px;
+        height: 65vh;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*   */
+    }
+    img{
+        width: 60vw;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    .main-navbar {
+        width: 60vw;
+        height: 5vh;
+    }
+    .content {
+        flex-direction: column;
+        padding: 20px;
+        width: 90vw;
+    }
+    .container{
+        width: 95vw;
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lname {
+        font-size: 100px;
+    }
+    .fname {
+        font-size: 80px;
+    }
+    .buttons {
+        gap: 20px;
+    }
+    .cont-but, .res-but {
+        width: 40vw;
+    }
+    .aboutme{
+        font-size: 13px;
+    }
+    .about{
+        height: 20vh;
+        text-align: center;
+    }
+}
+@media (min-width: 901px) {
+    .main-navbar {
+        width: 50vw;
+        height: 5vh;
+    }
+    .content {
+        flex-direction: row;
+        height: 82vh;
+    }
+    .lname {
+        font-size: 140px;
+    }
+    .fname {
+        font-size: 120px;
+    }
+    .buttons {
+        gap: 25px;
+    }
+    .cont-but, .res-but {
+        width: 9vw;
+    }
+}
