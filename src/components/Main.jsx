@@ -99,12 +99,10 @@ function Main() {
       </motion.div>
       <motion.div  whileHover={{ scale: 0.9 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='icons'>
-      <a className='icon' href='mailto:kadamaryan21418@gmail.com'><Mail className='icon' /></a>
-      <a className='icon' href='https://github.com/ARYANKADAM'><Github className='icon'/></a>
-      <a className='icon' href='www.linkedin.com/in/aryankadam974
-
-'><Linkedin className='icon'/></a>
-      <a className='icon'><Twitter  className='icon'/></a>
+      <a className='icon' href='mailto:kadamaryan21418@gmail.com' target='_blank'><Mail className='icon' /></a>
+      <a className='icon' href='https://github.com/ARYANKADAM' target='_blank'><Github className='icon'/></a>
+      <a className='icon' href='https://www.linkedin.com/in/aryankadam974/' target='_blank'><Linkedin className='icon'/></a>
+      <a className='icon' target='_blank'><Twitter  className='icon'/></a>
       </motion.div>
       <hr></hr>
       <div className='footer'>

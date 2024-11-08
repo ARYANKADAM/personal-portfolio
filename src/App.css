@@ -671,7 +671,7 @@ hr{
 
     .main-navbar {
         width: 88vw;
-        height: 7vh;
+        height: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -679,7 +679,7 @@ hr{
         position: absolute;
     }
     ul{
-        margin-top: 2vh;
+        margin-top: 10px;
     }
 
     .navbar {
@@ -729,6 +729,7 @@ hr{
         width: 97vw;
         height: 93vh;
         margin-right: 16px;
+        margin-top: 30vh;
         /* background: transparent; */
     }
     #work-div{
@@ -917,6 +918,6 @@ hr{
         /* background-color: red; */
     }
     .arru{
-        padding-right: 65px;
+        padding-right: 75px;
     }
 }
