@@ -1,6 +1,7 @@
 import { Github, Instagram, Linkedin, Mail, Twitter } from 'lucide-react'
 import { motion } from 'framer-motion';
 import React from 'react'
+import { Link } from "react-scroll";
 
 
 function Main() {
@@ -19,14 +20,14 @@ function Main() {
     <div className='buttons'>
       <motion.div  whileHover={{ scale: 1.2 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='contbut'>
-        <button className='cont-but'>Contact</button>
+        <button className='cont-but' ><a className='cont-but'>Contact</a></button>
       </motion.div>
       <motion.div  whileHover={{ scale: 1.2 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='resbut'>
-        <button className='res-but'>Resume</button>
+        <button className='res-but'><a className='res-but' href='' target='_blank'>Resume</a></button>
       </motion.div>
     </div>
-    <div className='work-div'>
+    <div className='work-div' id='one'>
       <div className='work-heading'>
       <h1 className='landing-pg'>KISAAN SAMARTH</h1>
       <h3 className='landpg-heading'>Developed a website named "KISAN SAMARTH" as part of our SIH team project using React for the frontend and MongoDB for the database. The platform aims to empower farmers with real-time information, resources, and support, providing a user-friendly interface for easy access to essential agricultural tools and services.</h3>
@@ -54,7 +55,7 @@ function Main() {
       <h3 id='landpg-heading'>Developed a simple yet engaging X and O game (Tic-Tac-Toe) using React. The game features an intuitive interface, allowing users to play with computer with a smooth, interactive experience. It showcases my skills in React components, state management, and user interface design.</h3>
       </div>
     </div>
-    <div className='work-div'>
+    <div className='Work-div'>
       <div className='work-heading'>
       <h1 className='landing-pg'>PORTFOLIO</h1>
       <h3 className='landpg-heading'>Created a personal portfolio website using React, featuring a visually appealing and user-friendly interface. The site showcases my skills, projects, and experience with smooth navigation, responsive design, and an engaging layout, reflecting my expertise in web development and UI design.</h3>
@@ -62,13 +63,13 @@ function Main() {
       <div className='work'>
       <motion.div  whileHover={{ scale: 1.1 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='git-icons'>
-        <Github className='git-icon'/>
+       <a href='aryank.vercel.app'> <Github className='git-icon'/></a>
       </motion.div>
         <motion.img  whileHover={{ scale: 1.2 }}  
         transition={{ type: 'spring', stiffness: 300 }}  src='/portfolio.png' className='portfolio'></motion.img>
       </div>
     </div>
-    <div className='about-pg'>
+    <div className='about-pg' id='two'>
       <div className='about-heading'>
       <div className='aboutpg-name'>
         <motion.h1 whileHover={{ scale: 0.9 }}  
@@ -90,7 +91,7 @@ function Main() {
         < p className='database-para'>MONGO-DB,MY-SQL</p>
       </div>
     </div>
-    <div className='contact-pg'>
+    <div className='contact-pg' id='three'>
       <motion.div  whileHover={{ scale: 0.9 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='contactpg'>
         <h1 className='reachout'>REACH OUT</h1>
@@ -98,10 +99,12 @@ function Main() {
       </motion.div>
       <motion.div  whileHover={{ scale: 0.9 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='icons'>
-      <Mail className='icon' />
-      <Github className='icon'/>
-      <Linkedin className='icon'/>
-      <Twitter  className='icon'/>
+      <a className='icon' href='mailto:kadamaryan21418@gmail.com'><Mail className='icon' /></a>
+      <a className='icon' href='https://github.com/ARYANKADAM'><Github className='icon'/></a>
+      <a className='icon' href='www.linkedin.com/in/aryankadam974
+
+'><Linkedin className='icon'/></a>
+      <a className='icon'><Twitter  className='icon'/></a>
       </motion.div>
       <hr></hr>
       <div className='footer'>
