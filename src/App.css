@@ -925,4 +925,9 @@ hr{
     .arru{
         padding-right: 80px;
     }
+    a:hover{
+        color: rgb(116, 112, 112);
+        background-color: white;
+        width: 20vw;
+    }
 }
