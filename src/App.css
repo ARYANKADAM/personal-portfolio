@@ -507,8 +507,8 @@ img{
 }
 .github-icon{
     color: white;
-    height: 7vh;
-    width: 3vw;
+    height: 8vh;
+    width: 4vw;
     margin-top: 2px;
 }
 hr{
@@ -807,8 +807,8 @@ hr{
         width: 5vw;
     }
     .github-icon{
-        width: 20vw;
-       
+        width: 10vw;
+        padding: 1px;
     }
     .git-icons{
         width: 8vw;
@@ -905,7 +905,7 @@ hr{
     #button a:hover{
         color: rgb(116, 112, 112);
         background-color: white;
-        width: vw;
+        width: 15vw;
     }
     .cont-but:hover{
         background-color: white;
