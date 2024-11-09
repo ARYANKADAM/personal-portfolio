@@ -907,9 +907,23 @@ hr{
         background-color: white;
         width: vw;
     }
-    .cont-but,.res-but{
+    .cont-but:hover{
         background-color: white;
         color: rgb(116, 112, 112);
         border-radius: 20px;
     }
+    .res-but:hover{
+        background-color: white;
+        color: rgb(116, 112, 112);
+        border-radius: 20px;
+    }
+    .cont-but{
+        background-color: rgb(116, 112, 112);
+        color: white;
+    }
+    .res-but{
+        background-color: rgb(116, 112, 112);
+        color: white;
+    }
+
 }
