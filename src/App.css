@@ -58,7 +58,7 @@ h1{
 .main-navbar:hover{
 
 }
-a:hover{
+#button a:hover{
     color: rgb(116, 112, 112);
     background-color: white;
 }

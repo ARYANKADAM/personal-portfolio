@@ -35,7 +35,7 @@ function Main() {
       <div className='work'>
       <motion.div  whileHover={{ scale: 1.3 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='git-icons'>
-        <Github className='git-icon'/>
+        <a href='https://constract.vercel.app/'><Github className='git-icon'/></a>
       </motion.div>
         <motion.img  whileHover={{ scale: 1.1 }}  
         transition={{ type: 'spring', stiffness: 300 }} src='/farmer.png'></motion.img>
@@ -45,7 +45,7 @@ function Main() {
       <div id='work'>
       <motion.div  whileHover={{ scale: 1.3 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='github-icons'>
-        <Github className='github-icon'/>
+        <a href='https://github.com/ARYANKADAM/Tic-Tac-Toe'  target='_blank'><Github className='github-icon'/></a>
       </motion.div>
       <motion.img  whileHover={{ scale: 1.1 }}  
         transition={{ type: 'spring', stiffness: 300 }} src='/x and 0.png' id='x0game'></motion.img>
@@ -63,10 +63,10 @@ function Main() {
       <div className='work'>
       <motion.div  whileHover={{ scale: 1.1 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='git-icons'>
-       <a href='aryank.vercel.app'> <Github className='git-icon'/></a>
+       <a href='https://github.com/ARYANKADAM/personal-portfolio'> <Github className='git-icon'/></a>
       </motion.div>
         <motion.img  whileHover={{ scale: 1.2 }}  
-        transition={{ type: 'spring', stiffness: 300 }}  src='/portfolio.png' className='portfolio'></motion.img>
+        transition={{ type: 'spring', stiffness: 300 }}  src='/portfolio.png' className='portfolio' ></motion.img>
       </div>
     </div>
     <div className='about-pg' id='two'>
