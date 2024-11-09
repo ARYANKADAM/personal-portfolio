@@ -352,13 +352,11 @@ b{
     margin-right: 12px;
     border-radius: 20px;
     margin-top: 5vh;
-    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #landpg-heading{
-    /* background-color: red; */
     width: 22vw;
     height: 40vh;
     margin-left:25px;
@@ -485,7 +483,6 @@ img{
 }
 .icon{
     color: white;
-    /* background-color: red; */
     padding: 5px;
     height: 5vh;
     width: 3vw;
@@ -496,7 +493,6 @@ img{
     background: linear-gradient(black 55%,rgb(71, 68, 71) );
 }
 .gitbut{
-    /* background-color: red; */
     height: 14vh;
     display: flex;
     align-items: center;
@@ -527,12 +523,10 @@ hr{
     border-radius: 17px;
     display: flex;
     flex-direction: ro;
-    /* align-items: center; */
     justify-content: start;
     background-color: black;
 }
 .aboutpg-name{
-    /* background-color: blue; */
     width: 60vw;
     margin-left: 4vw;
     margin-top: 5vh;
@@ -543,11 +537,9 @@ hr{
     gap: 10px;
 }
 .about-pg-name{
-    /* background-color: red; */
     color: rgb(238, 229, 229);
     font-size: 90px;
     width: 50vw;
-    /* padding: 10px; */
     text-shadow: 1px 1px 5px white;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 500;
@@ -559,7 +551,6 @@ hr{
 .about-para{
     color: white;
     display: flex;
-    /* background-color: aqua; */
     width: 45vw;
     height: 50vh;
     padding: 4px;
@@ -575,11 +566,10 @@ hr{
     margin-bottom: 2px;
 }
 .about-heading{
-    /* background-color: yellow; */
+
     width: 55vw;
 }
 .skills{
-    /* background-color: red; */
     width: 50vw;
     margin-left: 5vw;
     margin-right: 4vw;
@@ -730,7 +720,6 @@ hr{
         height: 93vh;
         margin-right: 16px;
         margin-top: 30vh;
-        /* background: transparent; */
     }
     #work-div{
         display: flex;
@@ -738,7 +727,6 @@ hr{
         width: 97vw;
         height: 93vh;
         margin-right: 16px;
-        /* background: transparent; */
     }
     .Work-div{
         display: flex;
@@ -831,8 +819,6 @@ hr{
         width: 8vw;
         margin-left: 20px;
         margin-bottom: -20vh;
-        /* background-color: yellow; */
-
     }
 
     .work-heading {
@@ -866,17 +852,14 @@ hr{
         width: 97vw;
         display: flex;
         flex-direction: column;
-        /* background-color: red; */
     }
     .about-pg-name{
         margin-left: 97px;
         padding-left: 50px;
-        /* background-color: red; */
         width: 97vw;
         font-size: 40px;
     }
     .about-para{
-        /* background-color: red; */
         width: 96vw;
         margin-left: 98px;
         padding-left: 60px;
@@ -885,7 +868,6 @@ hr{
     .skills{
         margin-top: 90px;
         order: 3;
-        /* background-color: red; */
         width: 88vw;
     }
     .frontend-hd,.backend-hd,.uiux-hd,.database-hd{
@@ -899,11 +881,9 @@ hr{
         width: 50vw;  
     }
     .contact-pg{
-        /* background-color: red; */
         width: 97vw;
     }
     .contactpg{
-        /* background-color: yellow; */
         margin-left: 10vw;
     }
     .reachout{
@@ -919,15 +899,17 @@ hr{
     .icon{
         width: 10vw;
     }
-    .footer{
-        /* background-color: red; */
-    }
     .arru{
         padding-right: 80px;
     }
     a:hover{
         color: rgb(116, 112, 112);
         background-color: white;
-        width: 20vw;
+        width: vw;
+    }
+    .cont-but:hover, .res-but:hover {
+        background-color: white;
+        color: rgb(116, 112, 112);
+        border-radius: 20px;
     }
 }
