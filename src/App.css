@@ -830,7 +830,7 @@ hr{
     .github-icons{
         width: 8vw;
         margin-left: 20px;
-        margin-bottom: -16vh;
+        margin-bottom: -20vh;
         /* background-color: yellow; */
 
     }
@@ -883,6 +883,7 @@ hr{
         font-size: 11px;
     }
     .skills{
+        margin-top: 90px;
         order: 3;
         /* background-color: red; */
         width: 88vw;
@@ -890,8 +891,12 @@ hr{
     .frontend-hd,.backend-hd,.uiux-hd,.database-hd{
         font-size: 11px;
     }
-    .frontend-para,.backend-para,.uiux-para,.database-para{
+    .frontend-para,.backend-para,.uiux-para{
         font-size: 10px;
+    }
+    .database-para{
+        font-size: 10px; 
+        width: 50vw;  
     }
     .contact-pg{
         /* background-color: red; */
@@ -899,7 +904,7 @@ hr{
     }
     .contactpg{
         /* background-color: yellow; */
-        margin-left: 9vw;
+        margin-left: 10vw;
     }
     .reachout{
         font-size: 50px;
@@ -918,6 +923,6 @@ hr{
         /* background-color: red; */
     }
     .arru{
-        padding-right: 75px;
+        padding-right: 80px;
     }
 }

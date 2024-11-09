@@ -31,11 +31,11 @@ function App() {
   }, []);
 
   return (
-    <div className='container'>
+    <div className='container'  id='home'>
       <div className='main-navbar'>
         <Header />
       </div>
-      <div className='content'  id='home'>
+      <div className='content'>
         <Main />
       </div>
     </div>

@@ -24,7 +24,7 @@ function Main() {
       </motion.div>
       <motion.div  whileHover={{ scale: 1.2 }}  
         transition={{ type: 'spring', stiffness: 300 }} className='resbut'>
-        <button className='res-but'><a className='res-but' href='' target='_blank'>Resume</a></button>
+        <button className='res-but'><a className='res-but' href='https://app.luminpdf.com/viewer/672ee7c2fe481ab850e3306e' target='_blank'>Resume</a></button>
       </motion.div>
     </div>
     <div className='work-div' id='one'>
