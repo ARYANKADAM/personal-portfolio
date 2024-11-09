@@ -907,7 +907,7 @@ hr{
         background-color: white;
         width: vw;
     }
-    .cont-but:hover, .res-but{
+    .cont-but,.res-but{
         background-color: white;
         color: rgb(116, 112, 112);
         border-radius: 20px;
